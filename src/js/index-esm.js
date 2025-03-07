@@ -109,10 +109,10 @@ export function init(customOptions) {
     hasInitialized = true
   }
 
-  // Fire scroll listener on hash change to trigger highlighting changes too.
-  window.onhashchange = window.onscrollend = (e) => {
-    _scrollListener(e)
-  }
+  // // Fire scroll listener on hash change to trigger highlighting changes too.
+  // window.onhashchange = window.onscrollend = (e) => {
+  //   _scrollListener(e)
+  // }
 
   if (
     _options.scrollContainer &&
